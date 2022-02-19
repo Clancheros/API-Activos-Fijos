@@ -1,7 +1,5 @@
 package assets.fixed.api.controllers;
 
-import java.util.Optional;
-
 import java.util.List;
 import javax.websocket.server.PathParam;
 
@@ -21,6 +19,7 @@ import assets.fixed.api.models.FixedAsset;
 import assets.fixed.api.services.interfaces.IFixedAssetService;
 import assets.fixed.api.services.interfaces.IValidatorService;
 import assets.fixed.api.utilities.Converter;
+import assets.fixed.api.utilities.exceptions.UnprocessableEntity;
 
 @CrossOrigin
 @RestController
@@ -88,15 +87,15 @@ public class FixedAssetController {
         String timeInMillis = Converter.dateToMillis(fixedAsset.getBuyDate());
         fixedAsset.setBuyDate(timeInMillis);
         try {
-            if(validatorService.validator(fixedAsset)){
-                fixedAssetService.save(fixedAsset);
-                message = "Registro guardado exitosamente";
-                httpStatus = HttpStatus.OK;
-            } else {
-                message = "Error al guardar el registro";
-                httpStatus = HttpStatus.BAD_REQUEST;
-            }
-        } catch (Exception e) {
+            validatorService.validator(fixedAsset);
+            fixedAssetService.save(fixedAsset);
+            message = "Registro almacenado exitosamente";
+            httpStatus = HttpStatus.OK;
+        } catch(UnprocessableEntity entity){
+            message = entity.getMessage();
+            httpStatus = HttpStatus.BAD_REQUEST;
+        } 
+        catch (Exception e) {
             message = "Error en el servicio";
             httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
         }

@@ -63,18 +63,14 @@ public class FixedAssetService implements IFixedAssetService {
     }
 
     @Override
-    public boolean save(@RequestBody FixedAsset fixedAsset) {
+    public void save(@RequestBody FixedAsset fixedAsset) {
         EFixedAsset eFixedAsset = Helpers.modelMapper().map(fixedAsset, EFixedAsset.class);
-        boolean flag;
         try {
             assetRepository.save(eFixedAsset);
-            flag = true;
         }
         catch(Exception e){
             System.out.println("Error al guardar");
-            flag = false;
         }
-        return flag;
     }
 
     @Override

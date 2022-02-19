@@ -10,7 +10,7 @@ import assets.fixed.api.utilities.exceptions.UnprocessableEntity;
 public class ValidatorService implements IValidatorService{
 
     @Override
-    public boolean validator(FixedAsset fixedAsset) throws UnprocessableEntity {
+    public void validator(FixedAsset fixedAsset) throws UnprocessableEntity {
         if(fixedAsset.getBuyDate() == null || fixedAsset.getBuyDate().isEmpty()){
             message("La fecha de compra es necesaria");
         }
@@ -50,7 +50,6 @@ public class ValidatorService implements IValidatorService{
         if(fixedAsset.getWidth() == null || fixedAsset.getWidth().isNaN()){
             message("El ancho es necesario");
         }
-        return true;
     }
 
     private void message(String message) throws UnprocessableEntity {

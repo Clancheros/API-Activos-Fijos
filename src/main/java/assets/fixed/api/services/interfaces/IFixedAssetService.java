@@ -11,6 +11,6 @@ public interface IFixedAssetService {
     public List<FixedAsset> findByTypeId(String typeId);
     public List<FixedAsset> findByBuyDate(String buyDate);
     public FixedAsset findBySerial(String serial);
-    public boolean save(FixedAsset fixedAsset);
+    public void save(FixedAsset fixedAsset);
     public boolean update(FixedAsset fixedAsset, String serial);
 }
