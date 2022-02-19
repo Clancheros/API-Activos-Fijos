@@ -1,6 +1,7 @@
 package assets.fixed.api.controllers;
 
 import java.util.List;
+import java.util.Optional;
 
 import javax.websocket.server.PathParam;
 
@@ -26,15 +27,33 @@ public class PersonController {
 
     @GetMapping(value = "find")
     public ResponseEntity<Object> findById(@PathParam("id") String id){
-        try {
-            return ResponseEntity.ok(personService.findById(id));
-        } catch (Exception e) {
-            return ResponseEntity.ok(HttpStatus.BAD_REQUEST);
+        HttpStatus httpStatus;
+        Optional<Person> person = personService.findById(id);
+        try{
+            if(!person.isPresent()){
+                httpStatus = HttpStatus.NOT_FOUND;
+            } else {
+                httpStatus = HttpStatus.OK;
+            }
+        } catch(Exception e){
+            httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
         }
+        return new ResponseEntity<>(person, httpStatus);
     }
 
     @GetMapping(value = "find/area")
-    public List<Person> findByArea(@PathParam("areaId") String areaId){
-        return personService.findByAreaId(areaId);
+    public ResponseEntity<Object> findByArea(@PathParam("areaId") String areaId){
+        HttpStatus httpStatus;
+        List<Person> person = personService.findByAreaId(areaId);
+        try{
+            if(!person.isEmpty()){
+                httpStatus = HttpStatus.NOT_FOUND;
+            } else {
+                httpStatus = HttpStatus.OK;
+            }
+        } catch(Exception e){
+            httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
+        }
+        return new ResponseEntity<>(person, httpStatus);
     }
 }

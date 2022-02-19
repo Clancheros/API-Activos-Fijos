@@ -1,4 +1,4 @@
-package assets.fixed.api.Utilities;
+package assets.fixed.api.utilities;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

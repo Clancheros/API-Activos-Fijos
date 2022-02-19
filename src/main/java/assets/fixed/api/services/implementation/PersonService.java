@@ -7,11 +7,11 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import assets.fixed.api.Utilities.Helpers;
 import assets.fixed.api.entities.EPerson;
 import assets.fixed.api.models.Person;
 import assets.fixed.api.repositories.PersonRepository;
 import assets.fixed.api.services.interfaces.IPersonService;
+import assets.fixed.api.utilities.Helpers;
 
 @Component
 public class PersonService implements IPersonService {

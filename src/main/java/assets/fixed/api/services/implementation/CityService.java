@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import assets.fixed.api.repositories.CityRepository;
 import assets.fixed.api.services.interfaces.ICityService;
-import assets.fixed.api.Utilities.Helpers;
+import assets.fixed.api.utilities.Helpers;
 import assets.fixed.api.entities.ECity;
 import assets.fixed.api.models.City;
 

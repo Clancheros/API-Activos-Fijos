@@ -5,11 +5,11 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import assets.fixed.api.Utilities.Helpers;
 import assets.fixed.api.entities.EArea;
 import assets.fixed.api.models.Area;
 import assets.fixed.api.repositories.AreaRepository;
 import assets.fixed.api.services.interfaces.IAreaService;
+import assets.fixed.api.utilities.Helpers;
 
 @Component
 public class AreaService implements IAreaService{

@@ -8,11 +8,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import assets.fixed.api.Utilities.Helpers;
 import assets.fixed.api.entities.EFixedAsset;
 import assets.fixed.api.models.FixedAsset;
 import assets.fixed.api.repositories.FixedAssetRepository;
 import assets.fixed.api.services.interfaces.IFixedAssetService;
+import assets.fixed.api.utilities.Helpers;
 
 @Component
 public class FixedAssetService implements IFixedAssetService {
@@ -63,18 +63,23 @@ public class FixedAssetService implements IFixedAssetService {
     }
 
     @Override
-    public void save(@RequestBody FixedAsset fixedAsset) {
+    public boolean save(@RequestBody FixedAsset fixedAsset) {
         EFixedAsset eFixedAsset = Helpers.modelMapper().map(fixedAsset, EFixedAsset.class);
+        boolean flag;
         try {
             assetRepository.save(eFixedAsset);
+            flag = true;
         }
         catch(Exception e){
             System.out.println("Error al guardar");
+            flag = false;
         }
+        return flag;
     }
 
     @Override
-    public void update(FixedAsset fixedAsset, String serial) {
+    public boolean update(FixedAsset fixedAsset, String serial) {
+        boolean flag;
         try {
             Optional<EFixedAsset> eFixedAsset = this.assetRepository.findBySerial(serial);
             EFixedAsset asset = eFixedAsset.get();
@@ -93,9 +98,12 @@ public class FixedAssetService implements IFixedAssetService {
             asset.setWeight(fixedAsset.getWeight());
             asset.setWidth(fixedAsset.getWidth());
             this.assetRepository.save(asset);
+            flag = true;
         } catch (Exception e) {
             System.out.println("Error al actualizar");
+            flag = false;
         }
+        return flag;
     }
     
     private FixedAsset eFixedAssetToFixedAsset(final EFixedAsset eFixedAsset){

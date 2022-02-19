@@ -1,4 +1,4 @@
-package assets.fixed.api.Utilities;
+package assets.fixed.api.utilities;
 
 import org.modelmapper.ModelMapper;
 

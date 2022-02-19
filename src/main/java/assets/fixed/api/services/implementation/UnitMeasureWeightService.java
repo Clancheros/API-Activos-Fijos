@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import assets.fixed.api.repositories.UnitMeasureWeightRepository;
 import assets.fixed.api.services.interfaces.IUnitMeasureWeightService;
-import assets.fixed.api.Utilities.Helpers;
+import assets.fixed.api.utilities.Helpers;
 import assets.fixed.api.entities.EUnitMeasureWeight;
 import assets.fixed.api.models.UnitMeasureWeight;
 

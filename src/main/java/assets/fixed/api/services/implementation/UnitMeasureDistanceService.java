@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import assets.fixed.api.repositories.UnitMeasureDistanceRepository;
 import assets.fixed.api.services.interfaces.IUnitMeasureDistanceService;
-import assets.fixed.api.Utilities.Helpers;
+import assets.fixed.api.utilities.Helpers;
 import assets.fixed.api.entities.EUnitMeasureDistance;
 import assets.fixed.api.models.UnitMeasureDistance;
 

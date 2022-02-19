@@ -1,5 +1,7 @@
 package assets.fixed.api.controllers;
 
+import java.util.Optional;
+
 import javax.websocket.server.PathParam;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import assets.fixed.api.models.Type;
 import assets.fixed.api.services.interfaces.ITypeService;
 
 @CrossOrigin
@@ -23,10 +26,17 @@ public class TypeController {
 
     @GetMapping(value = "find", produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<Object> findById(@PathParam("id") String id){
+        HttpStatus httpStatus;
+        Optional<Type> type = typeService.findById(id);
         try{
-            return ResponseEntity.ok(typeService.findById(id).get());
-        } catch(Exception e) {
-            return ResponseEntity.ok(HttpStatus.BAD_REQUEST);
+            if(!type.isPresent()){
+                httpStatus = HttpStatus.NOT_FOUND;
+            } else {
+                httpStatus = HttpStatus.OK;
+            }
+        } catch(Exception e){
+            httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
         }
+        return new ResponseEntity<>(type, httpStatus);
     }
 }

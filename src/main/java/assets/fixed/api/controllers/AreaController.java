@@ -1,5 +1,6 @@
 package assets.fixed.api.controllers;
 
+import java.util.Optional;
 import javax.websocket.server.PathParam;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import assets.fixed.api.models.Area;
 import assets.fixed.api.services.interfaces.IAreaService;
 
 @CrossOrigin
@@ -22,23 +24,35 @@ public class AreaController {
 
     @GetMapping(value = "find")
     public ResponseEntity<Object> findById(@PathParam("id") String id){
+        HttpStatus httpStatus;
+        Optional<Area> area = areaService.findById(id);
         try{
-            return ResponseEntity.ok(areaService.findById(id));
+            if(!area.isPresent()){
+                httpStatus = HttpStatus.NOT_FOUND;
+            } else {
+                httpStatus = HttpStatus.OK;
+            }
+        } catch(Exception e){
+            httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
         }
-        catch(Exception e){
-            System.out.println(e.getStackTrace());
-            return ResponseEntity.ok(HttpStatus.BAD_REQUEST);
-        }
+        return new ResponseEntity<>(area, httpStatus);
     }
 
     @GetMapping(value = "find/city")
     public ResponseEntity<Object> findByCity(@PathParam("cityId") String cityId){
+        HttpStatus httpStatus;
+        Area area = areaService.findByCity(cityId);
         try{
-            return ResponseEntity.ok(areaService.findByCity(cityId));
+            if(area == null){
+                httpStatus = HttpStatus.NOT_FOUND;
+            } else {
+                httpStatus = HttpStatus.OK;
+            }
         }
         catch(Exception e){
-            return ResponseEntity.ok(HttpStatus.BAD_REQUEST);
+            httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
         }
+        return new ResponseEntity<>(area, httpStatus);
     }
     
 }

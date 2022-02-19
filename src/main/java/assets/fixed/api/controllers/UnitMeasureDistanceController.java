@@ -1,5 +1,7 @@
 package assets.fixed.api.controllers;
 
+import java.util.Optional;
+
 import javax.websocket.server.PathParam;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +13,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import assets.fixed.api.models.UnitMeasureDistance;
 import assets.fixed.api.services.interfaces.IUnitMeasureDistanceService;
 
 @CrossOrigin
@@ -22,10 +25,17 @@ public class UnitMeasureDistanceController {
 
     @GetMapping(value = "find")
     public ResponseEntity<Object> findById(@PathParam("id") String id){
+        HttpStatus httpStatus;
+        Optional<UnitMeasureDistance> unitDistance = distanceService.findById(id);
         try {
-            return ResponseEntity.ok(distanceService.findById(id));
-        } catch (Exception e) {
-            return ResponseEntity.ok(HttpStatus.BAD_REQUEST);
+            if(!unitDistance.isPresent()){
+                httpStatus = HttpStatus.NOT_FOUND;
+            } else {
+                httpStatus = HttpStatus.OK;
+            }
+        } catch(Exception e){
+            httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
         }
+        return new ResponseEntity<>(unitDistance, httpStatus);
     }
 }

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import assets.fixed.api.repositories.TypeRepository;
 import assets.fixed.api.services.interfaces.ITypeService;
-import assets.fixed.api.Utilities.Helpers;
+import assets.fixed.api.utilities.Helpers;
 import assets.fixed.api.entities.EType;
 import assets.fixed.api.models.Type;
 
