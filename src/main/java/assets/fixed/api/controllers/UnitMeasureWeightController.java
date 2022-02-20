@@ -4,6 +4,8 @@ import java.util.Optional;
 
 import javax.websocket.server.PathParam;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -20,6 +22,8 @@ import assets.fixed.api.services.interfaces.IUnitMeasureWeightService;
 @RestController
 @RequestMapping(value = "unitMeasureWeight", produces = MediaType.APPLICATION_JSON_VALUE)
 public class UnitMeasureWeightController {
+    public final static Logger LOGGER = LoggerFactory.getLogger(FixedAssetController.class);
+    
     @Autowired
     private IUnitMeasureWeightService WeightService;
 
@@ -29,11 +33,14 @@ public class UnitMeasureWeightController {
         Optional<UnitMeasureWeight> unitWeight = WeightService.findById(id);
         try {
             if(!unitWeight.isPresent()){
+                LOGGER.debug("No existe la unidad de medida con id {}", id);
                 httpStatus = HttpStatus.NOT_FOUND;
             } else {
+                LOGGER.debug("Data: {}", unitWeight);
                 httpStatus = HttpStatus.OK;
             }
-        } catch (Exception e) {
+        } catch(Exception error){
+            LOGGER.debug("Error: {}", error.getMessage());
             httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
         }
         return new ResponseEntity<>(unitWeight, httpStatus);

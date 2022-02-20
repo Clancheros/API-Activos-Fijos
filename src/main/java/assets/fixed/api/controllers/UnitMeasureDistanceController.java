@@ -4,6 +4,8 @@ import java.util.Optional;
 
 import javax.websocket.server.PathParam;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
@@ -20,6 +22,7 @@ import assets.fixed.api.services.interfaces.IUnitMeasureDistanceService;
 @RestController
 @RequestMapping(value = "unitMeasureDistance", produces = MediaType.APPLICATION_JSON_VALUE)
 public class UnitMeasureDistanceController {
+    public final static Logger LOGGER = LoggerFactory.getLogger(FixedAssetController.class);
     @Autowired
     private IUnitMeasureDistanceService distanceService;
 
@@ -29,11 +32,14 @@ public class UnitMeasureDistanceController {
         Optional<UnitMeasureDistance> unitDistance = distanceService.findById(id);
         try {
             if(!unitDistance.isPresent()){
+                LOGGER.debug("No existe la unidad de medida con id {}", id);
                 httpStatus = HttpStatus.NOT_FOUND;
             } else {
+                LOGGER.debug("Data: {}", unitDistance);
                 httpStatus = HttpStatus.OK;
             }
-        } catch(Exception e){
+        } catch(Exception error){
+            LOGGER.debug("Error: {}", error.getMessage());
             httpStatus = HttpStatus.INTERNAL_SERVER_ERROR;
         }
         return new ResponseEntity<>(unitDistance, httpStatus);
