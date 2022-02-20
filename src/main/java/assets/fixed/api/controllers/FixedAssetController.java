@@ -35,7 +35,6 @@ import assets.fixed.api.services.interfaces.IValidatorService;
 import assets.fixed.api.utilities.Converter;
 import assets.fixed.api.utilities.Helpers;
 import assets.fixed.api.utilities.exceptions.UnprocessableEntity;
-import lombok.experimental.Helper;
 
 @CrossOrigin
 @RestController

@@ -3,7 +3,6 @@ package assets.fixed.api.controllers;
 import java.util.Optional;
 import javax.websocket.server.PathParam;
 
-import org.hibernate.type.descriptor.java.CalendarTimeTypeDescriptor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
