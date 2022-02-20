@@ -38,7 +38,7 @@ public class ValidatorService implements IValidatorService{
         if(fixedAsset.getHeight() == null || fixedAsset.getHeight().isNaN()){
             message("El alto es necesario");
         }
-        if(fixedAsset.getInternalNumber() == null || fixedAsset.getInternalNumber().isNaN()){
+        if(fixedAsset.getInternalNumber() == null || fixedAsset.getInternalNumber().isEmpty()){
             message("El número interno es necesario");
         }
         if(fixedAsset.getLength() == null || fixedAsset.getLength().isNaN()){

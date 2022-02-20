@@ -31,7 +31,7 @@ public class EFixedAsset implements Serializable {
     private String serial;
 
     @Column(name="internal_number")
-    private Double internalNumber;
+    private String internalNumber;
 
     @Column
     private Double weight;

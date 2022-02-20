@@ -14,7 +14,7 @@ public class FixedAsset implements Serializable {
     private String description;
     private String typeId;
     private String serial;
-    private Double internalNumber;
+    private String internalNumber;
     private Double weight;
     private Double height;
     private Double width;

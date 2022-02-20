@@ -11,6 +11,7 @@
 	<groupId>asset.fixed.api</groupId>
 	<artifactId>api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -62,19 +63,22 @@
 	</dependencies>
 
 	<build>
+		<finalName>FixedAssetAPI</finalName>
 		<plugins>
 			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
-			</plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+						<configuration>
+							<classifier>exec-${env}</classifier>
+						</configuration>
+					</execution>
+				</executions>
+            </plugin>
 		</plugins>
 	</build>
 
