@@ -26,7 +26,6 @@ public class CityService implements ICityService {
             System.out.println("No hay ciudad con ese id");
             return null;
         }
-        
     }
 
     private City eCityToCity(final ECity eCity){

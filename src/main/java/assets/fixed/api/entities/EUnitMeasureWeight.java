@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Table(name="UnitMeasureWeight")
+@Table(name="unit_measure_weight")
 @Entity
 public class EUnitMeasureWeight implements Serializable {
     @Id

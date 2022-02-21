@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name="Person")
+@Table(name="person")
 @Entity
 public class EPerson implements Serializable{
     @Id

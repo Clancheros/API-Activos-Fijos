@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Table(name="FixedAsset")
+@Table(name="fixed_asset")
 @Entity
 public class EFixedAsset implements Serializable {
     

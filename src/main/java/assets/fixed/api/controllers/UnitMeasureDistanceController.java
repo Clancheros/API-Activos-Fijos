@@ -22,7 +22,7 @@ import assets.fixed.api.services.interfaces.IUnitMeasureDistanceService;
 @RestController
 @RequestMapping(value = "unitMeasureDistance", produces = MediaType.APPLICATION_JSON_VALUE)
 public class UnitMeasureDistanceController {
-    public final static Logger LOGGER = LoggerFactory.getLogger(FixedAssetController.class);
+    public final static Logger LOGGER = LoggerFactory.getLogger(UnitMeasureDistanceController.class);
     @Autowired
     private IUnitMeasureDistanceService distanceService;
 

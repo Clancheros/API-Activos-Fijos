@@ -14,7 +14,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Table(name="Type")
+@Table(name="type")
 @Entity
 public class EType implements Serializable {
     @Id

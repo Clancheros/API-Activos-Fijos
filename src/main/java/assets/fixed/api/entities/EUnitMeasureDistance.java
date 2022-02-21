@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Table(name="UnitMeasureDistance")
+@Table(name="unit_measure_distance")
 @Entity
 public class EUnitMeasureDistance implements Serializable{
     @Id

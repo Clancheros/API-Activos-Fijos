@@ -1,0 +1,152 @@
+2022-02-20 08:51:13,864 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 15780 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 08:51:13,879 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 08:51:13,881 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 08:51:26,092 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 13.667 seconds (JVM running for 14.913)
+2022-02-20 08:52:31,181 DEBUG [http-nio-9003-exec-1] assets.fixed.api.controllers.FixedAssetController : No extsten bienes fijos del tipo '1'
+2022-02-20 08:53:36,058 DEBUG [http-nio-9003-exec-4] assets.fixed.api.controllers.FixedAssetController : No extsten bienes fijos del tipo '1'
+2022-02-20 08:53:54,150 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 13544 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 08:53:54,155 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 08:53:54,158 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 08:54:07,533 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 15.28 seconds (JVM running for 17.337)
+2022-02-20 08:54:52,319 DEBUG [http-nio-9003-exec-2] assets.fixed.api.controllers.FixedAssetController : No extsten bienes fijos del tipo '1'
+2022-02-20 08:55:42,372 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 884 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 08:55:42,378 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 08:55:42,380 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 08:55:53,454 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 12.362 seconds (JVM running for 13.561)
+2022-02-20 08:56:05,204 DEBUG [http-nio-9003-exec-2] assets.fixed.api.controllers.FixedAssetController : Data: [FixedAsset(name=NameTest 2, description=Test 2, typeId=Mueble, serial=123, internalNumber=123, weight=12.0, height=1.0, width=13.0, length=1.5, buyValue=500.0, buyDate=1229058000000, unitMeasureWeightId=1, unitMeasureDistanceId=1, areaId=1, personId=null), FixedAsset(name=NameTest 3, description=Test 3, typeId=Mueble, serial=213, internalNumber=123, weight=12.0, height=1.0, width=13.0, length=1.5, buyValue=500.0, buyDate=1581742800000, unitMeasureWeightId=1, unitMeasureDistanceId=1, areaId=1, personId=null), FixedAsset(name=Este, description=description, typeId=Mueble, serial=569, internalNumber=754, weight=12.0, height=13.0, width=14.0, length=15.0, buyValue=1245.0, buyDate=1615438800000, unitMeasureWeightId=1, unitMeasureDistanceId=1, areaId=1, personId=1), FixedAsset(name=Este, description=description, typeId=Mueble, serial=999, internalNumber=754, weight=12.0, height=13.0, width=14.0, length=15.0, buyValue=1245.0, buyDate=1615438800000, unitMeasureWeightId=1, unitMeasureDistanceId=1, areaId=1, personId=1), FixedAsset(name=NameTest 5, description=Test 4, typeId=Mueble, serial=321, internalNumber=123, weight=12.0, height=15.0, width=13.0, length=1.5, buyValue=500.0, buyDate=1581742800000, unitMeasureWeightId=1, unitMeasureDistanceId=null, areaId=1, personId=null), FixedAsset(name=NameTest 5, description=Test 4, typeId=Mueble, serial=499, internalNumber=123, weight=12.0, height=15.0, width=13.0, length=1.5, buyValue=500.0, buyDate=1581742800000, unitMeasureWeightId=1, unitMeasureDistanceId=null, areaId=1, personId=null)]
+2022-02-20 10:12:36,525 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 2852 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 10:12:36,530 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 10:12:36,538 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 10:12:49,927 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 15.181 seconds (JVM running for 16.487)
+2022-02-20 10:14:28,602 DEBUG [http-nio-9003-exec-2] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 10:16:02,104 DEBUG [http-nio-9003-exec-4] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 10:17:17,553 DEBUG [http-nio-9003-exec-6] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 10:17:48,067 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 15504 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 10:17:48,077 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 10:17:48,080 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 10:18:03,129 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 16.76 seconds (JVM running for 18.432)
+2022-02-20 10:22:07,914 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 4136 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 10:22:07,920 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 10:22:07,923 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 10:22:20,381 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 14.014 seconds (JVM running for 16.155)
+2022-02-20 10:23:44,613 DEBUG [http-nio-9003-exec-1] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 10:24:27,598 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 10592 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 10:24:27,604 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 10:24:27,606 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 10:24:41,710 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 15.69 seconds (JVM running for 17.579)
+2022-02-20 10:24:50,505 DEBUG [http-nio-9003-exec-1] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 10:25:19,252 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 10996 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 10:25:19,258 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 10:25:19,262 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 10:25:32,725 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 15.054 seconds (JVM running for 17.112)
+2022-02-20 10:26:45,516 DEBUG [http-nio-9003-exec-2] assets.fixed.api.controllers.FixedAssetController : Data: 999
+2022-02-20 11:13:16,070 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:13:16,078 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:13:16,083 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:13:27,442 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 12.651 seconds (JVM running for 13.798)
+2022-02-20 11:16:03,520 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:16:03,535 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:16:03,540 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:16:07,417 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 4.457 seconds (JVM running for 173.774)
+2022-02-20 11:16:14,466 DEBUG [http-nio-9003-exec-1] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 11:16:52,227 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:16:52,235 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:16:52,241 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:16:54,757 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.683 seconds (JVM running for 221.113)
+2022-02-20 11:17:00,924 DEBUG [http-nio-9003-exec-2] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 11:18:32,237 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:18:32,251 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:18:32,262 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:18:34,669 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.569 seconds (JVM running for 321.026)
+2022-02-20 11:20:10,312 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:20:10,351 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:20:10,355 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:20:12,872 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.735 seconds (JVM running for 419.229)
+2022-02-20 11:20:49,504 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:20:49,508 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:20:49,511 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:20:51,742 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.304 seconds (JVM running for 458.098)
+2022-02-20 11:24:17,876 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:24:17,882 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:24:17,895 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:24:20,430 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.656 seconds (JVM running for 666.787)
+2022-02-20 11:25:12,333 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:25:12,336 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:25:12,337 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:25:14,423 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.226 seconds (JVM running for 720.78)
+2022-02-20 11:29:12,018 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:29:12,024 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:29:12,029 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:29:14,383 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.557 seconds (JVM running for 960.74)
+2022-02-20 11:29:59,024 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:29:59,025 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:29:59,031 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:30:01,241 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.283 seconds (JVM running for 1007.597)
+2022-02-20 11:31:33,306 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:31:33,308 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:31:33,314 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:31:35,343 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.094 seconds (JVM running for 1101.699)
+2022-02-20 11:31:38,849 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:31:38,851 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:31:38,853 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:31:41,014 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 2.229 seconds (JVM running for 1107.37)
+2022-02-20 11:32:11,431 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:32:11,435 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:32:11,437 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:32:13,248 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.943 seconds (JVM running for 1139.605)
+2022-02-20 11:32:46,416 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:32:46,420 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:32:46,422 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:32:48,142 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.865 seconds (JVM running for 1174.499)
+2022-02-20 11:34:07,457 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:34:07,459 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:34:07,460 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:34:10,638 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 3.238 seconds (JVM running for 1256.995)
+2022-02-20 11:34:12,670 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:34:12,673 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:34:12,675 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:34:14,576 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.972 seconds (JVM running for 1260.932)
+2022-02-20 11:35:15,580 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:35:15,583 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:35:15,586 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:35:17,193 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.724 seconds (JVM running for 1323.55)
+2022-02-20 11:36:01,620 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:36:01,622 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:36:01,624 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:36:03,028 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.464 seconds (JVM running for 1369.384)
+2022-02-20 11:37:07,198 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:37:07,201 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:37:07,202 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:37:08,850 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.707 seconds (JVM running for 1435.207)
+2022-02-20 11:38:36,018 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:38:36,019 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:38:36,021 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:38:37,841 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.873 seconds (JVM running for 1524.197)
+2022-02-20 11:39:57,944 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:39:57,945 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:39:57,947 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:39:59,290 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.392 seconds (JVM running for 1605.646)
+2022-02-20 11:44:36,434 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:44:36,436 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:44:36,441 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:44:37,826 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.466 seconds (JVM running for 1884.182)
+2022-02-20 11:45:24,640 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:45:24,641 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:45:24,642 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:45:26,072 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.506 seconds (JVM running for 1932.429)
+2022-02-20 11:48:14,872 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:48:14,875 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:48:14,877 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:48:16,290 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.475 seconds (JVM running for 2102.646)
+2022-02-20 11:50:01,774 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 11:50:01,776 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 11:50:01,778 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 11:50:03,420 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.683 seconds (JVM running for 2209.776)
+2022-02-20 11:59:15,934 DEBUG [http-nio-9003-exec-2] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 12:01:03,631 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Starting ApiApplication using Java 11.0.14.1 on Krizer with PID 3052 (C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api\target\classes started by HP in C:\Users\HP\Documents\workspace-spring\Nueva carpeta\api)
+2022-02-20 12:01:03,632 DEBUG [restartedMain] org.springframework.boot.StartupInfoLogger : Running with Spring Boot v2.6.3, Spring v5.3.15
+2022-02-20 12:01:03,633 INFO [restartedMain] org.springframework.boot.SpringApplication : No active profile set, falling back to default profiles: default
+2022-02-20 12:01:05,133 INFO [restartedMain] org.springframework.boot.StartupInfoLogger : Started ApiApplication in 1.563 seconds (JVM running for 2871.49)
+2022-02-20 12:01:12,468 DEBUG [http-nio-9003-exec-2] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 12:01:48,360 DEBUG [http-nio-9003-exec-4] assets.fixed.api.controllers.FixedAssetController : Error: null
+2022-02-20 12:02:30,520 DEBUG [http-nio-9003-exec-8] assets.fixed.api.controllers.FixedAssetController : Error: null

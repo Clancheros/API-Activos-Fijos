@@ -6,7 +6,6 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,17 +13,16 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Table(name="area")
+@Table(name="reg_user")
 @Entity
-public class EArea implements Serializable{
-
+public class EUser implements Serializable{
     @Id
     @Column
-    private String id;
+    private String username;
 
     @Column
-    private String name;
+    private String password;
     
-    @Column(name = "city_id")
-    private String cityId;
+    @Column
+    private String rol;
 }

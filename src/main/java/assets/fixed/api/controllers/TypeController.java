@@ -22,7 +22,7 @@ import assets.fixed.api.services.interfaces.ITypeService;
 @RestController
 @RequestMapping(value = "type", produces = MediaType.APPLICATION_JSON_VALUE)
 public class TypeController {
-    public final static Logger LOGGER = LoggerFactory.getLogger(PersonController.class);
+    public final static Logger LOGGER = LoggerFactory.getLogger(TypeController.class);
 
     @Autowired
     private ITypeService typeService;

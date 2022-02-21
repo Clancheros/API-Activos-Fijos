@@ -22,7 +22,7 @@ import assets.fixed.api.services.interfaces.IUnitMeasureWeightService;
 @RestController
 @RequestMapping(value = "unitMeasureWeight", produces = MediaType.APPLICATION_JSON_VALUE)
 public class UnitMeasureWeightController {
-    public final static Logger LOGGER = LoggerFactory.getLogger(FixedAssetController.class);
+    public final static Logger LOGGER = LoggerFactory.getLogger(UnitMeasureWeightController.class);
     
     @Autowired
     private IUnitMeasureWeightService WeightService;
